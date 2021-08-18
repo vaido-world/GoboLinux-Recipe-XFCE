@@ -40,6 +40,12 @@ Source: http://vaido.world/gobo/#updated-with-dependencies
 
 ### Current Errors
 
+Panel
+```
+Compile LibWNCK 3.0
+
+```
+
 ```
 hecking pkg-config is at least version 0.9.0... yes
 checking for gio-2.0 >= 2.42.0... 2.63.5
