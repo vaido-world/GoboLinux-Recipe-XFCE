@@ -1,7 +1,7 @@
 # GoboLinux-Recipe-XFCE
 A Recipe for compiling XFCE on GoboLinux
 
-curl vaido.world/GoboLinux-Recipe-XFCE/add.bash | bash
+`curl vaido.world/GoboLinux-Recipe-XFCE/add.bash | bash`
 
 ### Compilation and Installation | Bash script
 ```
