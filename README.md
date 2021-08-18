@@ -40,11 +40,7 @@ Source: http://vaido.world/gobo/#updated-with-dependencies
 
 ### Current Errors
 
-Panel
-```
-Compile LibWNCK 3.0
 
-```
 
 ```
 hecking pkg-config is at least version 0.9.0... yes
@@ -74,5 +70,102 @@ PrepareProgram: configure failed.
 Compile: XFCE-Meta-Stable 4.14 - Configuration failed.
 Compile: Compilation of XFCE4-Panel 4.14.0 failed.
 root@LiveCD ~]
+
+```
+
+
+Panel
+```
+Compile LibWNCK 3.0
+
+```
+
+
+```
+wnckprop.c:1703:3: warning: ‘gdk_error_trap_pop’ is deprecated: Use 'gdk_x11_display_error_trap_pop' instead [-Wdeprecated-declarations]
+ 1703 |   if (gdk_error_trap_pop () || !result)
+      |   ^~
+In file included from /usr/include/gtk-3.0/gdk/gdk.h:50,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from wnckprop.c:42:
+/usr/include/gtk-3.0/gdk/gdkmain.h:73:32: note: declared here
+   73 | G_GNUC_WARN_UNUSED_RESULT gint gdk_error_trap_pop         (void);
+      |                                ^~~~~~~~~~~~~~~~~~
+wnckprop.c: In function ‘get_target’:
+wnckprop.c:1774:3: warning: ‘gdk_cursor_new’ is deprecated: Use 'gdk_cursor_new_for_display' instead [-Wdeprecated-declarations]
+ 1774 |   cross = gdk_cursor_new (GDK_CROSS);
+      |   ^~~~~
+In file included from /usr/include/gtk-3.0/gdk/gdk.h:34,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from wnckprop.c:42:
+/usr/include/gtk-3.0/gdk/gdkcursor.h:228:12: note: declared here
+  228 | GdkCursor* gdk_cursor_new   (GdkCursorType    cursor_type);
+      |            ^~~~~~~~~~~~~~
+wnckprop.c:1775:3: warning: ‘gdk_pointer_grab’ is deprecated: Use 'gdk_device_grab' instead [-Wdeprecated-declarations]
+ 1775 |   status = gdk_pointer_grab (root, FALSE, GDK_BUTTON_PRESS_MASK,
+      |   ^~~~~~
+In file included from /usr/include/gtk-3.0/gdk/gdk.h:50,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from wnckprop.c:42:
+/usr/include/gtk-3.0/gdk/gdkmain.h:86:15: note: declared here
+   86 | GdkGrabStatus gdk_pointer_grab       (GdkWindow    *window,
+      |               ^~~~~~~~~~~~~~~~
+wnckprop.c:1777:3: warning: ‘gdk_cursor_unref’ is deprecated: Use 'g_object_unref' instead [-Wdeprecated-declarations]
+ 1777 |   gdk_cursor_unref (cross);
+      |   ^~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-3.0/gdk/gdk.h:34,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from wnckprop.c:42:
+/usr/include/gtk-3.0/gdk/gdkcursor.h:247:13: note: declared here
+  247 | void        gdk_cursor_unref             (GdkCursor       *cursor);
+      |             ^~~~~~~~~~~~~~~~
+wnckprop.c:1786:3: warning: ‘gdk_keyboard_grab’ is deprecated: Use 'gdk_device_grab' instead [-Wdeprecated-declarations]
+ 1786 |   status = gdk_keyboard_grab (root, FALSE, GDK_CURRENT_TIME);
+      |   ^~~~~~
+In file included from /usr/include/gtk-3.0/gdk/gdk.h:50,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from wnckprop.c:42:
+/usr/include/gtk-3.0/gdk/gdkmain.h:93:15: note: declared here
+   93 | GdkGrabStatus gdk_keyboard_grab      (GdkWindow    *window,
+      |               ^~~~~~~~~~~~~~~~~
+wnckprop.c:1794:3: warning: ‘gdk_flush’ is deprecated: Use 'gdk_display_flush' instead [-Wdeprecated-declarations]
+ 1794 |   gdk_flush ();
+      |   ^~~~~~~~~
+In file included from /usr/include/gtk-3.0/gdk/gdk.h:50,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from wnckprop.c:42:
+/usr/include/gtk-3.0/gdk/gdkmain.h:124:6: note: declared here
+  124 | void gdk_flush (void);
+      |      ^~~~~~~~~
+wnckprop.c: In function ‘clean_up’:
+wnckprop.c:1807:3: warning: ‘gdk_pointer_ungrab’ is deprecated: Use 'gdk_device_ungrab' instead [-Wdeprecated-declarations]
+ 1807 |   gdk_pointer_ungrab (GDK_CURRENT_TIME);
+      |   ^~~~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-3.0/gdk/gdk.h:50,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from wnckprop.c:42:
+/usr/include/gtk-3.0/gdk/gdkmain.h:100:15: note: declared here
+  100 | void          gdk_pointer_ungrab     (guint32       time_);
+      |               ^~~~~~~~~~~~~~~~~~
+wnckprop.c:1808:3: warning: ‘gdk_keyboard_ungrab’ is deprecated: Use 'gdk_device_ungrab' instead [-Wdeprecated-declarations]
+ 1808 |   gdk_keyboard_ungrab (GDK_CURRENT_TIME);
+      |   ^~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-3.0/gdk/gdk.h:50,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from wnckprop.c:42:
+/usr/include/gtk-3.0/gdk/gdkmain.h:102:15: note: declared here
+  102 | void          gdk_keyboard_ungrab    (guint32       time_);
+      |               ^~~~~~~~~~~~~~~~~~~
+  CCLD   wnckprop
+./.libs/libwnck-3.so: error: undefined reference to 'cos'
+collect2: error: ld returned 1 exit status
+make[2]: *** [Makefile:619: wnckprop] Error 1
+make[2]: Leaving directory '/Data/Compile/Sources/libwnck-3.0.2/libwnck'
+make[1]: *** [Makefile:441: all-recursive] Error 1
+make[1]: Leaving directory '/Data/Compile/Sources/libwnck-3.0.2'
+make: *** [Makefile:346: all] Error 2
+Compile: LibWNCK 3.0 - Build process failed.
+root@LiveCD ~]Compile LibWNCK 3.0LibWNCK
+root@LiveCD ~]Compile LibWNCK 3.0
 
 ```
