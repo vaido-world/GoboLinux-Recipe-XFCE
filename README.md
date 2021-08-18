@@ -192,3 +192,7 @@ xfce4-session: No GPG agent found
 
 ```
 ![image](https://user-images.githubusercontent.com/21064622/129957521-02abfb00-dcaf-4d09-8728-a7af54842248.png)
+
+
+https://www.linuxquestions.org/questions/linux-from-scratch-13/xfce4-session-permission-problem-4175451170/#post4897152
+
