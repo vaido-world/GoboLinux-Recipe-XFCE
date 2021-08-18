@@ -1,7 +1,7 @@
 # GoboLinux-Recipe-XFCE
 A Recipe for compiling XFCE on GoboLinux
 
-### Installation | Bash script
+### Compilation and Installation | Bash script
 ```
 # Before we introduce our XFCE Recipe to the local Recipe repository that is /Data/Compile/Recipe
 # We need to fetch the Recipes from https://github.com/gobolinux/Recipes 
