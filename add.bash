@@ -19,7 +19,7 @@ curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Pan
 tar --extract --file="XFCE4-Panel.tar.gz" --gzip --verbose
 mv "XFCE4-Panel/" "/Data/Compile/Recipes/"
 
-# Required for XFCE4-Panel
+# Required before XFCE4-Panel 4.14.0 Compilation
 Compile LibWNCK 3.36.0 
 
 # 4.14.0 version of XFCE4-Settings does not exist in the offical Recipes Repository. 
