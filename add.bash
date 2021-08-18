@@ -1,3 +1,10 @@
+# Prerequitsites
+
+# 4.14.1 version of XFConf does not exist in the offical Recipes Repository. 
+curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFConf.tar.gz" -O
+tar --extract --file="XFConf.tar.gz" --gzip --verbose
+mv "XFConf/" "/Data/Compile/Recipes/"
+
 # Before we introduce our XFCE Recipe to the local Recipe repository that is /Data/Compile/Recipe
 # We need to fetch the Recipes from https://github.com/gobolinux/Recipes 
 Compile "." # It will say that the Recipe is not found. What is important is that Recipes Repository will be downloaded.
