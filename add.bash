@@ -26,6 +26,14 @@ tar --extract --file="XFCE4-Session.tar.gz" --gzip --verbose
 mv "XFCE4-Session/" "/Data/Compile/Recipes/"
 
 
+# 4.14.1 version of XFDesktop does not exist in the offical Recipes Repository. 
+curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFDesktop.tar.gz" -O
+tar --extract --file="XFDesktop.tar.gz" --gzip --verbose
+mv "XFDesktop/" "/Data/Compile/Recipes/"
+
+
+
+
 # If Recipe will not go smoothly without prompts, Compiling it before the Recipe is what should resolve it. 
 # Compile LibXFCE4UI 4.14.1
 
