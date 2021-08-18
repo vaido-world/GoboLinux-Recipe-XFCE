@@ -68,5 +68,10 @@ sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog
 sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog
 Compile Docbook-xml-dtd --no-dependencies --batch
 
+# Install util-linux
+Compile PCRE2  
+Compile util-linux
+
+
 # Compile the XFCE Desktop Environment using XFCE Meta Recipe
 Compile "XFCE-Meta-Stable"
