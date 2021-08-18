@@ -5,6 +5,7 @@ curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFConf.ta
 tar --extract --file="XFConf.tar.gz" --gzip --verbose
 mv "XFConf/" "/Data/Compile/Recipes/"
 
+# If Recipe will not go smoothly without prompts, Compiling it before the Recipe is what should resolve it. 
 # Compile LibXFCE4UI 4.14.1
 
 
