@@ -10,6 +10,11 @@ curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/EXO.tar.g
 tar --extract --file="EXO.tar.gz" --gzip --verbose
 mv "EXO/" "/Data/Compile/Recipes/"
 
+# 4.14.0 version of XFCE4-Panel does not exist in the offical Recipes Repository. 
+curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Panel.tar.gz" -O
+tar --extract --file="XFCE4-Panel.tar.gz" --gzip --verbose
+mv "XFCE4-Panel/" "/Data/Compile/Recipes/"
+
 # If Recipe will not go smoothly without prompts, Compiling it before the Recipe is what should resolve it. 
 # Compile LibXFCE4UI 4.14.1
 
