@@ -76,7 +76,7 @@ root@LiveCD ~]
 
 Panel
 ```
-Compile LibWNCK 3.0
+Compile LibWNCK 3.36.0 
 
 ```
 
