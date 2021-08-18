@@ -182,6 +182,13 @@ https://www.google.com/search?q=startxfce4+error&client=firefox-b-d&ei=U1cdYYPpE
 
 ### Multiple things pointing at dbus problem with startxfce4
 
+```
+root@LiveCD ~]startxfce4
+/usr/bin/startxfce4: X server already running on display :0
+/bin/sh: /System/Settings/xdg/xfce4/xinitrc: No such file or directory
+
+```
+
 https://forums.freebsd.org/threads/doesnt-start.62071/
 
 ```
