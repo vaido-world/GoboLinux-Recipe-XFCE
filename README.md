@@ -176,3 +176,5 @@ root@LiveCD ~]Compile LibWNCK 3.0
 ### Relevant error resolution
 https://bbs.archlinux.org/viewtopic.php?id=118425
 
+https://www.google.com/search?q=startxfce4+error&client=firefox-b-d&ei=U1cdYYPpEeKnrgT_tZaQBA&oq=startxfce4+error&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6BQghEKABOggIIRAWEB0QHjoECAAQEzoICAAQFhAKEB46BggAEA0QHjoICAAQDRAFEB46CAgAEAgQDRAeSgQIQRgAULNiWMx3YMN4aANwAngAgAF-iAHiC5IBBDE0LjOYAQCgAQHIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwjD3uqtn7vyAhXik4sKHf-aBUIQ4dUDCA0&uact=5
+
