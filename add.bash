@@ -7,17 +7,17 @@ Compile "." # It will say that the Recipe is not found. What is important is tha
 # 4.14.1 version of XFConf does not exist in the offical Recipes Repository. 
 curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFConf.tar.gz" -O
 tar --extract --file="XFConf.tar.gz" --gzip --verbose
-mv "XFConf/" "/Data/Compile/Recipes/"
+mv XFConf/* "/Data/Compile/Recipes/XFConf"
 
 # 0.12.8 version of EXO does not exist in the offical Recipes Repository. 
 curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/EXO.tar.gz" -O
 tar --extract --file="EXO.tar.gz" --gzip --verbose
-mv "EXO/" "/Data/Compile/Recipes/"
+mv EXO/* "/Data/Compile/Recipes/EXO"
 
 # 4.14.0 version of XFCE4-Panel does not exist in the offical Recipes Repository. 
 curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Panel.tar.gz" -O
 tar --extract --file="XFCE4-Panel.tar.gz" --gzip --verbose
-mv "XFCE4-Panel/" "/Data/Compile/Recipes/"
+mv XFCE4-Panel/* "/Data/Compile/Recipes/XFCE4-Panel"
 
 # Required before XFCE4-Panel 4.14.0 Compilation
 Compile LibWNCK 3.36.0 
@@ -25,18 +25,18 @@ Compile LibWNCK 3.36.0
 # 4.14.0 version of XFCE4-Settings does not exist in the offical Recipes Repository. 
 curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Settings.tar.gz" -O
 tar --extract --file="XFCE4-Settings.tar.gz" --gzip --verbose
-mv "XFCE4-Settings/" "/Data/Compile/Recipes/"
+mv XFCE4-Settings/* "/Data/Compile/Recipes/XFCE4-Setting"
 
 # 4.14.0 version of XFCE4-Session does not exist in the offical Recipes Repository. 
 curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Session.tar.gz" -O
 tar --extract --file="XFCE4-Session.tar.gz" --gzip --verbose
-mv "XFCE4-Session/" "/Data/Compile/Recipes/"
+mv XFCE4-Session/* "/Data/Compile/Recipes/XFCE4-Session"
 
 
 # 4.14.1 version of XFDesktop does not exist in the offical Recipes Repository. 
 curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFDesktop.tar.gz" -O
 tar --extract --file="XFDesktop.tar.gz" --gzip --verbose
-mv "XFDesktop/" "/Data/Compile/Recipes/"
+mv XFDesktop/* "/Data/Compile/Recipes/XFDesktop"
 
 
 
