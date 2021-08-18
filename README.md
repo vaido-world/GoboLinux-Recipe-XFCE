@@ -209,3 +209,5 @@ https://forums.freebsd.org/threads/xfce-says-x-server-already-running.30863/#pos
 
 
 https://docs.xfce.org/xfce/xfce4-session/advanced
+
+Maybe XFCE4-Session can be reinstalled or installed as a separate package
