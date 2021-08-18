@@ -206,3 +206,6 @@ https://www.linuxquestions.org/questions/linux-from-scratch-13/xfce4-session-per
 
 
 https://forums.freebsd.org/threads/xfce-says-x-server-already-running.30863/#post-171548
+
+
+https://docs.xfce.org/xfce/xfce4-session/advanced
