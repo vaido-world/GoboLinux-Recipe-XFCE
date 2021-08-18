@@ -8,7 +8,7 @@ A Recipe for compiling XFCE on GoboLinux
 Compile
 
 # Downloading the Recipe
-curl -L ""
+curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE-Meta-Stable.tar.gz" -O
 
 # Extracting the Recipe from the Archive
 # unzip "XFCE-Meta-Stable.zip"
