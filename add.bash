@@ -5,6 +5,11 @@ curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFConf.ta
 tar --extract --file="XFConf.tar.gz" --gzip --verbose
 mv "XFConf/" "/Data/Compile/Recipes/"
 
+# 0.12.8 version of EXO does not exist in the offical Recipes Repository. 
+curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/EXO.tar.gz" -O
+tar --extract --file="EXO.tar.gz" --gzip --verbose
+mv "EXO/" "/Data/Compile/Recipes/"
+
 # If Recipe will not go smoothly without prompts, Compiling it before the Recipe is what should resolve it. 
 # Compile LibXFCE4UI 4.14.1
 
