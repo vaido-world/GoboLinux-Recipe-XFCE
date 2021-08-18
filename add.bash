@@ -20,6 +20,12 @@ curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Set
 tar --extract --file="XFCE4-Settings.tar.gz" --gzip --verbose
 mv "XFCE4-Settings/" "/Data/Compile/Recipes/"
 
+# 4.14.0 version of XFCE4-Session does not exist in the offical Recipes Repository. 
+curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Session.tar.gz" -O
+tar --extract --file="XFCE4-Session.tar.gz" --gzip --verbose
+mv "XFCE4-Session/" "/Data/Compile/Recipes/"
+
+
 # If Recipe will not go smoothly without prompts, Compiling it before the Recipe is what should resolve it. 
 # Compile LibXFCE4UI 4.14.1
 
