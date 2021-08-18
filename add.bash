@@ -5,6 +5,9 @@ curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFConf.ta
 tar --extract --file="XFConf.tar.gz" --gzip --verbose
 mv "XFConf/" "/Data/Compile/Recipes/"
 
+# Compile LibXFCE4UI 4.14.1
+
+
 # Before we introduce our XFCE Recipe to the local Recipe repository that is /Data/Compile/Recipe
 # We need to fetch the Recipes from https://github.com/gobolinux/Recipes 
 Compile "." # It will say that the Recipe is not found. What is important is that Recipes Repository will be downloaded.
