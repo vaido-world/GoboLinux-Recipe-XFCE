@@ -203,3 +203,6 @@ xfce4-session: No GPG agent found
 
 https://www.linuxquestions.org/questions/linux-from-scratch-13/xfce4-session-permission-problem-4175451170/#post4897152
 
+
+
+https://forums.freebsd.org/threads/xfce-says-x-server-already-running.30863/#post-171548
