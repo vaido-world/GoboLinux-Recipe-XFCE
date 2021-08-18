@@ -178,3 +178,17 @@ https://bbs.archlinux.org/viewtopic.php?id=118425
 
 https://www.google.com/search?q=startxfce4+error&client=firefox-b-d&ei=U1cdYYPpEeKnrgT_tZaQBA&oq=startxfce4+error&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6BQghEKABOggIIRAWEB0QHjoECAAQEzoICAAQFhAKEB46BggAEA0QHjoICAAQDRAFEB46CAgAEAgQDRAeSgQIQRgAULNiWMx3YMN4aANwAngAgAF-iAHiC5IBBDE0LjOYAQCgAQHIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwjD3uqtn7vyAhXik4sKHf-aBUIQ4dUDCA0&uact=5
 
+
+
+### Multiple things pointing at dbus problem with startxfce4
+
+https://forums.freebsd.org/threads/doesnt-start.62071/
+
+```
+root@LiveCD ~]xfce4-session
+xfce4-session: No GPG agent found
+
+(xfce4-session:10294): xfce4-session-WARNING **: 19:05:38.789: xfsm_manager_load_session: Something wrong with /Users/root/.cache/sessions/xfce4-session-LiveCD:0, Does it exist? Permissions issue?
+
+```
+![image](https://user-images.githubusercontent.com/21064622/129957521-02abfb00-dcaf-4d09-8728-a7af54842248.png)
