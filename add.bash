@@ -1,6 +1,6 @@
 # Before we introduce our XFCE Recipe to the local Recipe repository that is /Data/Compile/Recipe
 # We need to fetch the Recipes from https://github.com/gobolinux/Recipes 
-Compile "."
+Compile "." # It will say that the Recipe is not found. What is important is that Recipes Repository will be downloaded.
 
 # Downloading the Recipe
 curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE-Meta-Stable.tar.gz" -O
