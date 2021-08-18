@@ -171,3 +171,8 @@ root@LiveCD ~]Compile LibWNCK 3.0LibWNCK
 root@LiveCD ~]Compile LibWNCK 3.0
 
 ```
+
+
+### Relevant error resolution
+https://bbs.archlinux.org/viewtopic.php?id=118425
+
