@@ -11,7 +11,8 @@ Compile
 curl -L ""
 
 # Extracting the Recipe from the Archive
-unzip "XFCE-Meta-Stable.zip"
+# unzip "XFCE-Meta-Stable.zip"
+tar --extract --file="XFCE-Meta-Stable.tar.gz" --gzip --verbose
 
 # Move our XFCE Recipe to the Local Recipes Repository
 mv "XFCE-Meta-Stable/" "/Data/Compile/Recipes/"
