@@ -1,3 +1,7 @@
+# Before we introduce our XFCE Recipe to the local Recipe repository that is /Data/Compile/Recipe
+# We need to fetch the Recipes from https://github.com/gobolinux/Recipes 
+Compile "." # It will say that the Recipe is not found. What is important is that Recipes Repository will be downloaded.
+
 # Prerequitsites
 
 # 4.14.1 version of XFConf does not exist in the offical Recipes Repository. 
@@ -38,9 +42,11 @@ mv "XFDesktop/" "/Data/Compile/Recipes/"
 # Compile LibXFCE4UI 4.14.1
 
 
-# Before we introduce our XFCE Recipe to the local Recipe repository that is /Data/Compile/Recipe
-# We need to fetch the Recipes from https://github.com/gobolinux/Recipes 
-Compile "." # It will say that the Recipe is not found. What is important is that Recipes Repository will be downloaded.
+
+
+
+# The Recipe Part
+
 
 # Downloading the Recipe
 curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE-Meta-Stable.tar.gz" -O
