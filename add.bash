@@ -2,6 +2,7 @@
 # We need to fetch the Recipes from https://github.com/gobolinux/Recipes 
 Compile "." # It will say that the Recipe is not found. What is important is that Recipes Repository will be downloaded.
 
+
 # Prerequitsites
 
 # 4.14.1 version of XFConf does not exist in the offical Recipes Repository. 
@@ -62,6 +63,33 @@ mv "XFCE-Meta-Stable/" "/Data/Compile/Recipes/"
 # Install UnionFS
 InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
 InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
+
+# Unexpected Dependencies
+Compile LibNotify
+Compile Perl
+Compile PyGTK 
+Compile Python
+Compile ZLib 1.2.3
+
+Compile Autoconf 2.60
+Compile Automake 1.11
+Compile Glibc 2.30
+Compile Intltool 
+Compile LibTool 2.4.0
+Compile Pkgconfig 0.20
+Compile Vala
+
+Compile LibSM
+Compile LibX11
+
+Compile Startup-Notification 0.4
+
+## Thunar-volman
+Compile Pango 1.44.7
+
+Compile Gettext
+Compile Perl-XML-Parser
+Compile Perl-XML-Writer
 
 # Required before XFCE4-Panel 4.14.0 Compilation
 Compile LibWNCK 3.36.0 
