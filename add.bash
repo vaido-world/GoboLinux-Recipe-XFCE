@@ -91,11 +91,28 @@ Compile Gettext
 Compile Perl-XML-Parser
 Compile Perl-XML-Writer
 
+Compil LibX11 
+
+
+Compile LibEpoxy 1.0                          # ok
+Compile LibSM                                 # no version
+Compile LibXcomposite 0.2                     # ok
+Compile LibXdamage                            # no version 
+Compile LibXext                               # no version (+xsync)
+Compile LibXfixes                             # no version
+Compile LibXi                                 # no version
+Compile LibXinerama                           # no version
+Compile LibXpresent 1.0.0                     # ok
+Compile LibXrender                            # no version
+Compile LibXres                               # no version
+
+
 # Required before XFCE4-Panel 4.14.0 Compilation
 Compile LibWNCK 3.36.0 
 
 # Thunar-Volman Failed and requested for gudev-1.0 >= 145 when with --no-dependencies
 # Compile LibGUdev 234
+
 
 # Fix docbook for GoboLinux 17 release
 sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
