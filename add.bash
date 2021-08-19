@@ -75,7 +75,7 @@ Compile Autoconf 2.60
 Compile Automake 1.11
 # Compile Glibc 2.30
 Compile Intltool 
-Compile LibTool 2.4.0
+Compile LibTool 
 Compile Pkgconfig 0.20
 Compile Vala
 
