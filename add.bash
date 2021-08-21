@@ -117,17 +117,19 @@ InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.
 Compile LibWNCK 3.36.0 
 
 
-# Required for LibGUdev 234 version
-Compile GTK-Doc 1.33.0
-# Thunar-Volman Failed and requested for gudev-1.0 >= 145 when with --no-dependencies
-Compile LibGUdev 234
-
 
 # Fix docbook for GoboLinux 17 release
 sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
 sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog  
 sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog
 Compile Docbook-xml-dtd --no-dependencies --batch
+
+
+
+# Required for LibGUdev 234 version
+#  Compile GTK-Doc 1.33.0
+# Thunar-Volman Failed and requested for gudev-1.0 >= 145 when with --no-dependencies
+Compile LibGUdev 234
 
 # Installs util-linux
 Compile PCRE2  
