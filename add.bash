@@ -69,47 +69,48 @@ mv "XFCE-Meta-Stable/" "/Data/Compile/Recipes/"
 InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
 InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
 
-# Unexpected Dependencies
-Compile LibNotify
-Compile Perl
-Compile PyGTK 
-Compile Python
-Compile ZLib 1.2.3
-
-Compile Autoconf 2.60
-Compile Automake 1.11
-# Compile Glibc 2.30
-Compile Intltool 
-Compile LibTool 
-Compile Pkgconfig 0.20
-Compile Vala
-
-Compile LibSM
-Compile LibX11
-
-Compile Startup-Notification 0.4
-
-## Thunar-volman
-Compile Pango 1.44.7
-
-Compile Gettext
-Compile Perl-XML-Parser
-Compile Perl-XML-Writer
-
-Compil LibX11 
-
-
-Compile LibEpoxy 1.0                          # ok
-Compile LibSM                                 # no version
-Compile LibXcomposite 0.2                     # ok
-Compile LibXdamage                            # no version 
-Compile LibXext                               # no version (+xsync)
-Compile LibXfixes                             # no version
-Compile LibXi                                 # no version
-Compile LibXinerama                           # no version
-Compile LibXpresent 1.0.0                     # ok
-Compile LibXrender                            # no version
-Compile LibXres                               # no version
+## Unexpected Dependencies
+#Compile LibNotify
+#Comp#ile Perl
+#Compile PyGTK 
+#Compile Python
+#Compile ZLib 1.2.3
+#
+#Compile Autoconf 2.60
+#Compile Automake 1.11
+#
+## Compile Glibc 2.30
+#Compile Intltool 
+#Compile LibTool 
+#Compile Pkgconfig 0.20
+#Compile Vala
+#
+#Compile LibSM
+#Compile LibX11
+#
+#Compile Startup-Notification 0.4
+#
+### Thunar-volman
+#Compile Pango 1.44.7
+#
+#Compile Gettext
+#Compile Perl-XML-Parser
+#Compile Perl-XML-Writer
+#
+#Compil LibX11 
+#
+#
+#Compile LibEpoxy 1.0                          # ok
+#Compile LibSM                                 # no version
+#Compile LibXcomposite 0.2                     # ok
+#Compile LibXdamage                            # no version 
+#Compile LibXext                               # no version (+xsync)
+#Compile LibXfixes                             # no version
+#Compile LibXi                                 # no version
+#Compile LibXinerama                           # no version
+#Compile LibXpresent 1.0.0                     # ok
+#Compile LibXrender                            # no version
+#Compile LibXres                               # no version
 
 
 # Required before XFCE4-Panel 4.14.0 Compilation
