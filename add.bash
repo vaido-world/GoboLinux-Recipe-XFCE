@@ -117,7 +117,7 @@ InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.
 Compile LibWNCK 3.36.0 
 
 # Thunar-Volman Failed and requested for gudev-1.0 >= 145 when with --no-dependencies
-# Compile LibGUdev 234
+Compile LibGUdev 234
 
 
 # Fix docbook for GoboLinux 17 release
