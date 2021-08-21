@@ -37,6 +37,11 @@ curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFDesktop
 tar --extract --file="XFDesktop.tar.gz" --gzip --verbose
 mv XFDesktop/* "/Data/Compile/Recipes/XFDesktop"
 
+# 4.14.0 version of XFWM4 does not exist in the offical Recipes Repository. 
+curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFWM4.tar.gz" -O
+tar --extract --file="XFWM4.tar.gz" --gzip --verbose
+mv XFWM4/* "/Data/Compile/Recipes/XFWM4"
+
 
 
 
