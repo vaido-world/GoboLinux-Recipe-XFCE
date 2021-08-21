@@ -130,6 +130,8 @@ Compile Docbook-xml-dtd --no-dependencies --batch
 #  Compile GTK-Doc 1.33.0
 # Thunar-Volman Failed and requested for gudev-1.0 >= 145 when with --no-dependencies
 Compile LibGUdev 234
+# No package 'umockdev-1.0' found
+
 
 # Installs util-linux
 Compile PCRE2  
