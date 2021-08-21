@@ -127,7 +127,7 @@ Compile Docbook-xml-dtd --no-dependencies --batch
 
 
 # Required for LibGUdev 234 version
-#  Compile GTK-Doc 1.33.0
+  Compile GTK-Doc 1.33.0
 # Thunar-Volman Failed and requested for gudev-1.0 >= 145 when with --no-dependencies
 Compile LibGUdev 234
 # https://github.com/gobolinux/Recipes/blob/effe66610cad8f33b66634a9e3656a278a567e0b/LibGUdev/234/Recipe#L11
