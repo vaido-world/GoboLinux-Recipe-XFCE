@@ -1,0 +1,19 @@
+root@LiveCD ~]startxfce4
+/usr/bin/startxfce4: X server already running on display :0
+xfce4-session: No GPG agent found
+
+(xfce4-session:9833): xfce4-session-WARNING **: 17:24:54.642: xfsm_manager_load_session: Something wrong with /Users/root/.cache/sessions/xfce4-session-LiveCD:0, Does it exist? Permissions issue?
+
+(xfwm4:9854): xfwm4-WARNING **: 17:24:54.741: Could not find a screen to manage, exiting
+xfsettingsd: No window manager registered on screen 0.
+xfce4-panel: No window manager registered on screen 0. To start the panel without this check, run with --disable-wm-check.
+
+(xfce4-session:9833): xfce4-session-WARNING **: 17:25:00.289: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:9833): xfce4-session-WARNING **: 17:25:00.291: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:9833): xfce4-session-WARNING **: 17:25:00.292: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:9865): Gtk-WARNING **: 17:25:00.329: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+No window manager registered on screen 0. To start the xfdesktop without this check, run with --disable-wm-check.
+/usr/bin/env: ‘python’: No such file or directory
