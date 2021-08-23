@@ -9,3 +9,4 @@ InstallPackage XFCE-Meta-Stable--4.14--x86_64.tar.bz2
 InstallPackage LibWNCK--3.36.0--x86_64.tar.bz2
 InstallPackage LibGUdev--234--x86_64.tar.bz2
 InstallPackage UPower--0.99.11--x86_64.tar.bz2
+startxfce4
