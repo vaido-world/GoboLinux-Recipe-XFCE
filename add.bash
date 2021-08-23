@@ -143,7 +143,7 @@ Compile LibGUdev 234
 Compile PCRE2  
 Compile util-linux
 
-# Requried for XFCE4-Power-Manager 1.6.5
+# Requried before XFCE4-Power-Manager 1.6.5
 Compile UPower 0.99.11
 
 # Compile the XFCE Desktop Environment using XFCE Meta Recipe
