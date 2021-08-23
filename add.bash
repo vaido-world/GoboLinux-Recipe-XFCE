@@ -42,6 +42,11 @@ curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFWM4.tar
 tar --extract --file="XFWM4.tar.gz" --gzip --verbose
 mv XFWM4/* "/Data/Compile/Recipes/XFWM4"
 
+# 1.6.5 version of XFCE4-Power-Manager does not exist in the offical Recipes Repository. 
+curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Power-Manager.tar.gz" -O
+tar --extract --file="XFCE4-Power-Manager.tar.gz" --gzip --verbose
+mv XFCE4-Power-Manager/* "/Data/Compile/Recipes/XFCE4-Power-Manager"
+
 
 
 
