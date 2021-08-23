@@ -3,6 +3,24 @@ A Recipe for compiling XFCE on GoboLinux
 
 Tested using GoboLinux 17 Live CD on at least 2 computers: Laptop and a Desktop.
 
+**Preinstalled Dependencies:**
+```
+root@LiveCD ~]cd /Programs/GCC 
+root@LiveCD /Programs/GCC]ls
+9.2.0  Current
+
+root@LiveCD /Programs/GCC]cd /Programs/GLib
+root@LiveCD /Programs/GLib]ls
+2.63.5  Current
+
+root@LiveCD /Programs/GLib]cd /Programs/Glibc
+root@LiveCD /Programs/Glibc]ls
+2.30  Current  Settings
+root@LiveCD /Programs/Glibc]
+
+```
+
+
 ## GitHub Pages are enabled on this Repository
 **Note:** HTTPS protocol enforcement has been disabled for simplicity.  
 
