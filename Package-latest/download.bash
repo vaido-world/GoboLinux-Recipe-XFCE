@@ -1,3 +1,5 @@
+gobonet connect Wireless-N
+
 # curl --location -O https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/Package-latest/Dependencies/DocBook-XML-DTD--4.5--x86_64.tar.bz2
 # curl --location -O https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/Package-latest/Dependencies/GTK-Doc--1.33.0--x86_64.tar.bz2
 curl --location -O https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/Package-latest/Dependencies/LibGUdev--234--x86_64.tar.bz2
