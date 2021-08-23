@@ -234,3 +234,8 @@ https://forums.freebsd.org/threads/xfce-says-x-server-already-running.30863/#pos
 https://docs.xfce.org/xfce/xfce4-session/advanced
 
 Maybe XFCE4-Session can be reinstalled or installed as a separate package
+
+This happens because one of the Meta Recipe failed to compile. It can happen when any one of the Meta Recipe recipes fail with compilation.
+```
+/bin/sh: /System/Settings/xdg/xfce4/xinitrc: No such file or directory
+```
