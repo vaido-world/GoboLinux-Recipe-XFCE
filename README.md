@@ -1,6 +1,8 @@
 # GoboLinux-Recipe-XFCE
 A Recipe for compiling XFCE on GoboLinux
 
+Tested using GoboLinux 17 Live CD on at least 2 computers: Laptop and a Desktop.
+
 ## GitHub Pages are enabled on this Repository
 **Note:** HTTPS protocol enforcement has been disabled for simplicity.  
 
