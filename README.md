@@ -1,6 +1,9 @@
 # GoboLinux-Recipe-XFCE
 A Recipe for compiling XFCE on GoboLinux
 
+## GitHub Pages are enabled on this Repository
+**Note:** HTTPS protocol enforcement has been disabled for simplicity.  
+
 `curl vaido.world/GoboLinux-Recipe-XFCE/add.bash | bash`
 
 ### Compilation and Installation | Bash script
