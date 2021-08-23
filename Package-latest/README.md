@@ -6,3 +6,10 @@ CreatePackage XFCE-Meta-Stable
 
 
 
+Requires:
+Compile LibWNCK 3.36
+
+   Compile GTK-Doc 1.33.0
+  Compile LibGUdev 234
+# Required before XFCE4-Power-Manager 1.6.5
+Compile UPower 0.99.11
