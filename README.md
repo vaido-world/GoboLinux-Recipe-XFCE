@@ -3,7 +3,7 @@ A Recipe for compiling XFCE on GoboLinux
 
 Tested using GoboLinux 17 Live CD on at least 2 computers: Laptop and a Desktop.
 
-**Preinstalled Dependencies:**
+**GoboLinux 17 Preinstalled Dependencies:**
 ```
 root@LiveCD ~]cd /Programs/GCC 
 root@LiveCD /Programs/GCC]ls
