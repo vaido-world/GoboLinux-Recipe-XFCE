@@ -147,4 +147,4 @@ Compile util-linux
 Compile UPower 0.99.11
 
 # Compile the XFCE Desktop Environment using XFCE Meta Recipe
-Compile "XFCE-Meta-Stable" --no-dependencies
+Compile "XFCE-Meta-Stable" --no-dependencies --logfile /Users/root/Desktop/xfce.log
