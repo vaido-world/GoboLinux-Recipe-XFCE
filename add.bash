@@ -24,7 +24,7 @@ mv XFCE4-Panel/* "/Data/Compile/Recipes/XFCE4-Panel"
 # 4.14.0 version of XFCE4-Settings does not exist in the offical Recipes Repository. 
 curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Settings.tar.gz" -O
 tar --extract --file="XFCE4-Settings.tar.gz" --gzip --verbose
-mv XFCE4-Settings/* "/Data/Compile/Recipes/XFCE4-Setting"
+mv XFCE4-Settings/* "/Data/Compile/Recipes/XFCE4-Settings"
 
 # 4.14.0 version of XFCE4-Session does not exist in the offical Recipes Repository. 
 curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Session.tar.gz" -O
